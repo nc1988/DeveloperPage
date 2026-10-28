@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FunFun Studio</title>
+  <meta name="description" content="FunFun Studio — small, cozy games made by a dad, for kids and families.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="./"><span class="logo-mark">🎮</span>FunFun Studio</a>
+    <nav class="nav-links">
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <span class="badge">Indie game studio</span>
+    <h1>Small games,<br>made with <span>big heart</span>.</h1>
+    <p>FunFun Studio makes cozy, fun games for kids and families — built by a dad and veteran game developer, one evening at a time.</p>
+    <a class="btn" href="#games">See our games</a>
+    <a class="btn ghost" href="#contact">Get in touch</a>
+  </div>
+
+  <section id="games">
+    <div class="wrap">
+      <h2 class="section-title">Our games</h2>
+      <p class="section-sub">Available now on Google Play.</p>
+
+      <div class="games">
+        <!-- GAME CARD: copy this block for each game -->
+        <article class="game">
+          <div class="game-art">🔤</div>
+          <!-- To use a real image: replace the line above with
+               <div class="game-art"><img src="images/your-game.png" alt="Game name"></div> -->
+          <div class="game-body">
+            <h3>Letter Hunt: Kids Word Game</h3>
+            <div class="tags"><span class="tag">Android</span><span class="tag">Kids</span><span class="tag">Education</span></div>
+            <p>Fun English word games for kids! Hunt for letters, spell words, and practice vocabulary — parents can even add their own word lists.</p>
+            <a class="store-link" href="https://play.google.com/store/apps/details?id=com.funfun.letterhunt" target="_blank" rel="noopener">Get it on Google Play →</a>
+            <a href="https://nc1988.github.io/letterhunt-privacy/" style="font-size:.85rem;margin-top:8px;color:var(--muted)">Privacy policy</a>
+          </div>
+        </article>
+
+        <!-- Coming-soon card hidden for now:
+        <article class="game">
+          <div class="game-art alt">✨</div>
+          <div class="game-body">
+            <h3>Something New</h3>
+            <div class="tags"><span class="tag">In development</span></div>
+            <p>Our next game is cooking. Check back soon!</p>
+            <span class="soon">Coming soon</span>
+          </div>
+        </article>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="about">
+        <div class="about-emoji">👨‍👧</div>
+        <div>
+          <h2 class="section-title">About us</h2>
+          <p>FunFun Studio is a one-person studio run by a game developer with about 20 years of experience on commercial and console titles. Now we make our own games — simple, friendly, and fun to play together.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2 class="section-title">Say hello</h2>
+      <p>Feedback, bug reports, or business inquiries — we read every message.</p>
+      <a class="btn" href="mailto:funfungame.support@gmail.com">funfungame.support@gmail.com</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="y">2026</span> FunFun Studio</span>
+    <a href="privacy.html">Privacy Policies</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
